@@ -1,0 +1,79 @@
+.gradient-custom-2 {
+  
+    background: #fccb90;
+    
+   
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    
+
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    }
+
+    .form-label {
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+      
+      .btn {
+        padding: 0.75rem;
+      }
+      
+      .gradient-form {
+        background: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%);
+      }
+      
+      .gradient-custom-2 {
+        background: linear-gradient(45deg, #6a11cb 0%, #b36bff 100%);
+      }
+      
+      .btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 5px 15px rgba(102, 52, 230, 0.4);
+      }
+   
+@media (max-width: 768px) {
+    .card-body {
+      padding: 2rem;
+    }
+  
+    .form-outline input {
+      width: 100%;
+    }
+  
+    button.btn-block {
+      width: 100%; 
+    }
+  
+    a.text-muted {
+      width: 100%; 
+      text-align: right;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card-body {
+      padding: 1rem;
+    }
+  
+    .text-center img {
+      width: 90px;
+    }
+  
+    .text-white {
+      padding: 1.5rem;
+    }
+  }
+  
+      
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
